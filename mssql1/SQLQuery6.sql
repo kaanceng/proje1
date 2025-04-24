@@ -1,0 +1,3 @@
+CREATE LOGIN NewUser WITH PASSWORD = 'Test123!';
+USE AdventureWorks2019;
+CREATE USER NewUser FOR LOGIN NewUser;

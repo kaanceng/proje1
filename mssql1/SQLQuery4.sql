@@ -1,0 +1,1 @@
+CREATE INDEX IX_LastName ON Person.Person (LastName);
